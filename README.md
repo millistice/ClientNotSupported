@@ -1,5 +1,3 @@
-# RFC Proposal: Error 512 - Client Not Supported
-
 ## Abstract
 
 This document proposes the introduction of a new HTTP status code, "512 Client Not Supported," to be utilized by servers when encountering a client (typically a web browser) that is not supported or compatible with the server's capabilities.
