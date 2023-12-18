@@ -40,7 +40,32 @@ Implementations of this status code should be mindful of potential security impl
 
 ## IANA Considerations
 
-This document does not require any actions from the Internet Assigned Numbers Authority (IANA).
+**1. Registration Information:**
+   
+   - **Status Code:** 512
+   - **Description:** Client Not Supported
+   - **Reference:** This specification serves as the reference for the definition and usage of the "512 Client Not Supported" status code.
+
+**2. Usage Guidance:**
+
+   - The "512 Client Not Supported" status code indicates that the server refuses to process the request because the client lacks capabilities needed for successful processing.
+   - Clients receiving this status code should review the server's response headers or documentation to identify the specific requirements or capabilities that are lacking.
+
+**3. Contact:**
+
+   - For inquiries or further information regarding the use of this status code, contact the document authors or the responsible party designated in the HTTP protocol specifications.
+
+**4. Security Considerations:**
+
+   - Implementers and users should be aware that this status code may be employed to enhance security by preventing the execution of requests by inadequately equipped clients.
+
+**5. Interoperability Considerations:**
+
+   - Servers and clients implementing support for this status code should do so in accordance with the specifications outlined in this document to ensure consistent and interoperable behavior across the Internet.
+
+**6. IANA Considerations:**
+
+   - IANA is requested to update the Hypertext Transfer Protocol (HTTP) status code registry by adding the entry for "512 Client Not Supported" as specified in this document.
 
 ## Conclusion
 
